@@ -1,0 +1,29 @@
+{
+  "name": "planetary-brain",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "@primer/react": "^37.8.0",
+    "d3": "^7.8.5",
+    "deck.gl": "~9.0.37",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "simplex-noise": "^4.0.1",
+    "styled-components": "^5.3.11",
+    "voronoi-map": "./voronoi-map-js"
+  }
+}

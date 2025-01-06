@@ -1,0 +1,151 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #213547;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #eceef0;
+}
+
+#app {
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.chart-container {
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(133, 89, 89, 0.1);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.concealer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(54, 61, 71);
+}
+.force-graph-container,
+.voronoi-container {
+  width: 100%;
+  height: 100%;
+}
+
+circle {
+  transition: fill 0.3s ease;
+  cursor: grab;
+}
+
+circle:hover {
+  fill: #ff6b6b;
+}
+
+circle:active {
+  cursor: grabbing;
+}
+
+line {
+  transition: stroke-width 0.3s ease;
+}
+
+line:hover {
+  stroke-width: 3;
+}
+
+.pb-app-container {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.mapview-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.node-display {
+  padding: 10px;
+}
+.details-panel {
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.panel-type-label {
+  display: inline-block;
+  background-color: #adadad;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #fff;
+  float: right;
+}
+
+.node-header {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.from-to-label {
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 1px solid #eee;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.page-header {
+  padding: 50px 40px;
+}
+
+.page-header .title {
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.page-header .subtitle {
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.demo-sect-small {
+  width: 45%;
+  display: inline-block;
+  padding: 20px 0;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.demo-header-title {
+  font-size: 1.3em;
+}
+
+.demo-header-desc {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.demo-header {
+  padding: 20px;
+}
+
+.demo-section-big {
+}
